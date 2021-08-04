@@ -3,7 +3,7 @@
 using namespace std;
 
 //Problem reverse a string Recursively
-//
+
 
 string revStr(string input){
   if(input.size() == 0){
@@ -21,8 +21,3 @@ string revStr(string input){
   return revStr(input.substr(1)) + "H";
 }
 
-
-int main() {
-  
-  cout << revStr("hello");
-}
